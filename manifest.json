@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Refresher by Muhammad Shahid",
+    "version": "1.0",
+    "description": "This extension is written by Muhammad Shahid and it automatically refreshes the current page at random intervals.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "48x48.jpg"
+
+      }
+    },
+    "icons": {
+      "48": "48x48.jpg"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "48x48.jpg"
+    }
+  }
+  
